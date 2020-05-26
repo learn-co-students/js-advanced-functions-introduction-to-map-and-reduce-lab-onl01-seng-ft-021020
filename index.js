@@ -29,8 +29,8 @@ function reduceToAllTrue(sourceArray) {
         } else {
             return false;
         }
-    }
-    return sourceArray.reduce(reducer, true)
+    };
+    return sourceArray.reduce(reducer, true);
 }
 
 function reduceToAnyTrue(sourceArray) {
